@@ -1,0 +1,32 @@
+BRFSS 2024 - TARGET VARIABLES MISSING DATA ANALYSIS
+============================================================
+
+Dataset: 457,670 rows, 301 columns
+Target variables analyzed: 14
+Rows with missing values in target variables: 43,042 (9.40%)
+
+VARIABLE SUMMARY:
+------------------------------------------------------------
+_BMI5 (_BMI5): 9.40% MISSING
+_BMI5CAT (_BMI5CAT): 9.40% MISSING
+EMPLOY1 (EMPLOY1): 0.72% MISSING (+152,015 BRFSS codes)
+EDUCA (EDUCA): 0.00% MISSING (+2,356 BRFSS codes)
+PHYSHLTH (PHYSHLTH): 0.00% MISSING (+20,865 BRFSS codes)
+MENTHLTH (MENTHLTH): 0.00% MISSING (+16,762 BRFSS codes)
+PERSDOC2 (PERSDOC3): 0.00% MISSING (+4,610 BRFSS codes)
+EXERANY2 (EXERANY2): 0.00% MISSING (+1,312 BRFSS codes)
+CHECKUP1 (CHECKUP1): 0.00% MISSING (+5,332 BRFSS codes)
+_TOTINDA (_TOTINDA): COMPLETE (+1,315 BRFSS codes)
+_DRNKWK3 (_DRNKWK3): COMPLETE
+_SMOKER3 (_SMOKER3): COMPLETE (+32,022 BRFSS codes)
+SEXVAR (SEXVAR): COMPLETE
+_AGE80 (_AGE80): COMPLETE (+8,314 BRFSS codes)
+
+RECOMMENDATIONS:
+------------------------------------------------------------
+1. Completely missing variables (100% NaN): Consider dropping
+2. Variables with BRFSS special codes (7,9,77,99): Convert to NaN or treat as 'Missing' category
+3. Variables with <10% missing: Simple imputation (mean/median/mode)
+4. Variables with 10-50% missing: Multiple imputation recommended
+5. Variables with >50% missing: Consider if variable is usable
+6. Always check BRFSS codebook for skip patterns

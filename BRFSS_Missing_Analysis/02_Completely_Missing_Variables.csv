@@ -1,0 +1,3 @@
+Variable,Data Type,Total Rows,Non-Missing,Missing Count,Missing %,Status
+RCSGEND1,float64,457670,0,457670,100.0,COMPLETELY MISSING
+RCSXBRTH,float64,457670,0,457670,100.0,COMPLETELY MISSING

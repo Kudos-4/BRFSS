@@ -1,0 +1,5 @@
+model,fit_time_s,train_acc,train_auc,test_acc,test_auc,test_tn,test_fp,test_fn,test_tp
+Logistic_Regression,1.11,0.7307,0.7788,0.7301,0.7763,39081,13821,2750,5737
+Decision_Tree,0.82,0.7274,0.7871,0.724,0.7752,38595,14307,2638,5849
+Random_Forest,16.29,0.7604,0.8169,0.7497,0.7872,40340,12562,2804,5683
+XGBoost,5.33,0.7484,0.8155,0.7385,0.7884,39481,13421,2630,5857

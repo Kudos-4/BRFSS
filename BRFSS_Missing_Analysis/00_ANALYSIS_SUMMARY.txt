@@ -1,0 +1,31 @@
+BRFSS 2024 MISSING DATA ANALYSIS SUMMARY
+============================================================
+
+DATASET OVERVIEW:
+  Total rows: 457,670
+  Total variables: 301
+  Total missing values: 66,613,951
+
+MISSINGNESS BY CATEGORY:
+  Completely missing (100% NaN): 2 variables
+  Almost completely missing (>95% NaN): 63 variables
+  Highly missing (>50% NaN): 105 variables
+  Moderately missing (10-50% NaN): 20 variables
+  Slightly missing (0-10% NaN): 59 variables
+  Complete (0% NaN): 52 variables
+
+ROW-LEVEL ANALYSIS:
+  Rows with NO missing values: 0 (0.0%)
+  Rows with ANY missing values: 457,670 (100.0%)
+
+YOUR SPECIFIED VARIABLES:
+  CCLGHOUS: 99.69% MISSING
+  CELLSEX3: 18.64% MISSING
+  HHADULT: 17.91% MISSING
+  CSTATE1: 17.86% MISSING
+  CADULT1: 17.86% MISSING
+  CELLFON5: 17.86% MISSING
+  LANDLINE: 17.86% MISSING
+  PVTRESD3: 17.86% MISSING
+  SAFETIME: 17.86% MISSING
+  CTELNUM1: 17.86% MISSING

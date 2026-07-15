@@ -1,0 +1,10 @@
+# BRFSS 2024 mental-health-risk pipeline — Python dependencies
+# Versions pinned to the local PyCharm .venv used to produce the committed artifacts.
+# In Google Colab most of these are preinstalled; only xgboost/pyarrow may need install.
+pandas==3.0.2
+numpy==2.4.4
+scikit-learn==1.8.0
+matplotlib==3.10.9
+seaborn==0.13.2
+xgboost==3.2.0
+pyarrow==23.0.1

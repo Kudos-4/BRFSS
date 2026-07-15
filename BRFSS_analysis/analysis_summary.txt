@@ -1,0 +1,34 @@
+BRFSS 2024 Missing Data Analysis Summary
+==================================================
+
+Data file: C:\Users\panch\Downloads\LLCP2024XPT\LLCP2024.XPT
+Total rows: 457,670
+Total columns: 302
+Total missing values: 66,613,951
+Rows with any missing: 457,670 (100.0%)
+
+Focus Variables Analysis:
+------------------------------
+CCLGHOUS: 99.7% missing (456,244 of 457,670)
+CELLSEX3: 18.6% missing (85,313 of 457,670)
+HHADULT: 17.9% missing (81,961 of 457,670)
+CTELNUM1: 17.9% missing (81,730 of 457,670)
+CADULT1: 17.9% missing (81,732 of 457,670)
+PVTRESD3: 17.9% missing (81,730 of 457,670)
+SAFETIME: 17.9% missing (81,730 of 457,670)
+LANDLINE: 17.9% missing (81,731 of 457,670)
+CSTATE1: 17.9% missing (81,732 of 457,670)
+CELLFON5: 17.9% missing (81,731 of 457,670)
+
+Top 10 columns with most missing values:
+----------------------------------------
+RCSGEND1: 100.0% missing
+COLGHOUS: 100.0% missing
+RCSXBRTH: 100.0% missing
+CSRVCTL2: 99.9% missing
+ICFQSTVR: 99.8% missing
+CCLGHOUS: 99.7% missing
+HPVDSHT: 99.6% missing
+CSRVINST: 99.4% missing
+NOBCUSE8: 99.4% missing
+LASTSIG4: 99.3% missing
