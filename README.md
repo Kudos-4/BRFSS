@@ -72,16 +72,26 @@ Two options, easiest first.
 This repo ships Colab notebooks that **clone the repo into Colab and run the pipeline**, so the code and
 the committed data come along automatically — nothing to upload.
 
-- **`BRFSS_Colab.ipynb`** — runs the whole pipeline (clean → recode → EDA → model → evaluate).
+- **`BRFSS_Colab.ipynb`** — runs the whole pipeline (clean → recode → EDA → model → evaluate) by calling
+  the `.py` scripts. This is the **authoritative** run: it executes the real scripts, so it can't drift.
+- **`BRFSS_Full_Colab.ipynb`** — the **fully inline, editable** version: every step's code lives in cells
+  (not hidden behind `!python`), plots render inline, and "⚙️ knob" cells isolate the choices you'd most
+  likely tweak (which codes are valid, the binary recodes, the feature list, model hyperparameters). Best
+  when you want to **read and edit** the logic directly in Colab.
 - **`BRFSS_Recode_Colab.ipynb`** — the recode step (Steps 1–5) on its own, with an upload/Drive option.
 
-To open either one in Colab, prefix its GitHub URL with the Colab loader:
+To open any of them in Colab, prefix its GitHub URL with the Colab loader:
 
 ```
 https://colab.research.google.com/github/Kudos-4/BRFSS/blob/main/BRFSS_Colab.ipynb
+https://colab.research.google.com/github/Kudos-4/BRFSS/blob/main/BRFSS_Full_Colab.ipynb
 ```
 
 Then just **Runtime → Run all**.
+
+> **Which one?** Reviewing results → `BRFSS_Colab.ipynb`. Reading or changing the code → `BRFSS_Full_Colab.ipynb`.
+> The full notebook is a standalone editable copy, so it can drift from the scripts — if you make a change
+> there worth keeping, copy it back into the matching `.py` script (the source of truth).
 
 ### Option B — upload a script and a data file
 In a Colab cell:
